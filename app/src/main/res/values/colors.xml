@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skyblue">#219EBC</color>
+    <color name="pink">#ffafcc</color>
+    <color name="actionbar">#0077b6</color>
+    <color name="linear">#734f5a</color>
+    <color name="relative">#264653</color>
+    <color name="constraint">#2a9d8f</color>
+    <color name="frame">#e9c46a</color>
+    <color name="table">#f4a261</color>
+    <color name="material">#e76f51</color>
+    <color name="scroll">#941c2f</color>
+    <color name="horizontal">#c05761</color>
+</resources>

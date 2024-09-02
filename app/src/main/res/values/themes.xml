@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LayoutingMobile" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.LayoutingMobile" parent="Base.Theme.LayoutingMobile" />
+
+    <style name="Base.Theme.LayoutingMobile2" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/actionbar</item>
+    </style>
+
+    <style name="Theme.LayoutingMobile2" parent="Base.Theme.LayoutingMobile2" />
+
+
+
+
+    <style name="Base.Theme.Linear" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/linear</item>
+    </style>
+
+    <style name="Theme.Linear" parent="Base.Theme.Linear" />
+
+
+    <style name="Base.Theme.Relative" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/relative</item>
+    </style>
+
+    <style name="Theme.Relative" parent="Base.Theme.Relative" />
+
+
+    <style name="Base.Theme.Constraint" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/constraint</item>
+    </style>
+
+    <style name="Theme.Constraint" parent="Base.Theme.Constraint" />
+
+
+    <style name="Base.Theme.Frame" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/frame</item>
+    </style>
+
+    <style name="Theme.Frame" parent="Base.Theme.Frame" />
+
+
+    <style name="Base.Theme.Table" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/table</item>
+    </style>
+
+    <style name="Theme.Table" parent="Base.Theme.Table" />
+
+
+    <style name="Base.Theme.Material" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/material</item>
+    </style>
+
+    <style name="Theme.Material" parent="Base.Theme.Material" />
+
+
+    <style name="Base.Theme.Scroll" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/scroll</item>
+    </style>
+
+    <style name="Theme.Scroll" parent="Base.Theme.Scroll" />
+
+
+    <style name="Base.Theme.Horizontal" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/horizontal</item>
+    </style>
+
+    <style name="Theme.Horizontal" parent="Base.Theme.Horizontal" />
+
+</resources>

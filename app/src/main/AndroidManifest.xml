@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LayoutingMobile"
+        tools:targetApi="34">
+        <activity
+            android:name=".tablelayout"
+            android:label="Table Layout"
+            android:theme="@style/Base.Theme.Table"
+            android:exported="false" />
+        <activity
+            android:name=".scrollviewhorizontal"
+            android:label="Scroll View Horizontal"
+            android:theme="@style/Base.Theme.Horizontal"
+            android:exported="false" />
+        <activity
+            android:name=".scrollview"
+            android:label="Scroll View"
+            android:theme="@style/Base.Theme.Scroll"
+            android:exported="false" />
+        <activity
+            android:name=".relativelayout"
+            android:label="Relative Layout"
+            android:theme="@style/Base.Theme.Relative"
+            android:exported="false" />
+        <activity
+            android:name=".materialdesign"
+            android:label="Material Design"
+            android:theme="@style/Base.Theme.Material"
+            android:exported="false" />
+        <activity
+            android:name=".linearlayout"
+            android:label="Linear Layout"
+            android:theme="@style/Base.Theme.Linear"
+            android:exported="false" />
+        <activity
+            android:name=".framelayout"
+            android:label="Frame Layout"
+            android:theme="@style/Base.Theme.Frame"
+            android:exported="false" />
+        <activity
+            android:name=".constraintlayout"
+            android:label="Constraint Layout"
+            android:theme="@style/Base.Theme.Constraint"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
